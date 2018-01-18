@@ -29,16 +29,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. Install/update VSCode
 2. Install/update NodeJS
 3. npm install -g typescript@2.4.2
-4. npm uninstall -g @angular/cli		//uninstalls the currently installed regular version of angular CLI
-5. npm uninstall -g angular-cli			//uninstalls the legacy version of angular CLI
-5. npm cache clean --force				//make sure we start with a clean slate for nodejs/npm
-6. npm install -g @angular/cli@1.5.3	//the basic tool for creating fast angular apps
-7. npm install -g yarn					//is is a dependency used by angular-cli for caching downloaded packages
-8.1. ng new angularmaterial				//create a new ang-cli project, navigate into the newly created folder and run the app
-8.2. cd angularmaterial
-8.3. ng serve
-9.1. npm install --save @angular/material @angular/cdk	//the development (dev) dependencies for Angular Material
-9.2. npm install --save @angular/animations
-9.3. npm install --save hammerjs
-10. ng g m shared\material --dry-run
-11. navigate to material.angular.io     //find tons of sample UI components
+4.1. npm uninstall -g @angular/cli		//uninstalls the currently installed regular version of angular CLI
+4.2. npm uninstall -g angular-cli			//uninstalls the legacy version of angular CLI
+4.3. npm cache clean --force				  //make sure we start with a clean slate for nodejs/npm
+5. npm install -g @angular/cli@1.5.3	//the basic tool for creating fast angular apps
+6. npm install -g yarn					      //is is a dependency used by angular-cli for caching downloaded packages
+7.1. ng new angularmaterial				    //create a new ang-cli project, navigate into the newly created folder and run the app
+7.2. cd angularmaterial
+7.3. ng serve
+8.1. npm install --save @angular/material @angular/cdk	//the development (dev) dependencies for Angular Material
+8.2. npm install --save @angular/animations
+8.3. npm install --save hammerjs
+9. ng g m shared\material --dry-run --flat  //generate via ang-cli a module for initial testing of ang-mat
+10. navigate to material.angular.io   //find tons of sample UI components

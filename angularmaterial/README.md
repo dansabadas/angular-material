@@ -40,5 +40,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 8.1. npm install --save @angular/material @angular/cdk	//the development (dev) dependencies for Angular Material
 8.2. npm install --save @angular/animations
 8.3. npm install --save hammerjs
+8.4. npm install --save @angular/flex-layout
 9. ng g m shared\material --dry-run --flat  //generate via ang-cli a module for initial testing of ang-mat
 10. navigate to material.angular.io   //find tons of sample UI components
